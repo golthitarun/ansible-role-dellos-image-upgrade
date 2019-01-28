@@ -21,7 +21,8 @@ Role variables
 | ``operation_type``   | string: cancel,install | Displays the type of image operation | dellos10 |
 | ``software_image_url`` | string          | Configures the URL path to the image file | dellos10 |
 | ``software_version`` | string         | Displays the software version of the image file | dellos10 |
-                                                                                                      
+| `` upgrade_retries`` | number: 50, 100 | Configure the number of image upgrade retries  | dellos10 |                                                                                                                       
+
 Connection variables
 --------------------
 
